@@ -1,0 +1,53 @@
+{
+    "name": "integrated-terminal-filedir",
+    "displayName": "Integrated Terminal Filedir",
+    "description": "%description%",
+    "version": "0.0.1",
+    "publisher": "algon-320",
+    "engines": {
+        "vscode": "^1.16.0"
+    },
+    "license": "SEE LICENSE IN LICENSE.txt",
+    "categories": [
+        "Other"
+    ],
+    "keywords": [
+        "terminal",
+        "Integrated Terminal",
+        "file",
+        "directory"
+    ],
+    "icon": "images/icon.png",
+    "activationEvents": [
+        "*"
+    ],
+    "main": "./out/src/extension",
+    "contributes": {
+        "commands": [
+            {
+                "command": "workbench.action.terminal.toggleTerminalAtFiledir",
+                "title": "%command.toggle.title%",
+                "category": "%command.toggle.category%"
+            },
+            {
+                "command": "workbench.action.terminal.newAtFiledir",
+                "title": "%command.new.title%",
+                "category": "%command.new.category%"
+            }
+        ]
+    },
+    "scripts": {
+        "vscode:prepublish": "npm run compile",
+        "compile": "tsc -p ./",
+        "watch": "tsc -watch -p ./",
+        "postinstall": "node ./node_modules/vscode/bin/install",
+        "test": "npm run compile && node ./node_modules/vscode/bin/test"
+    },
+    "devDependencies": {
+        "typescript": "^2.5.2",
+        "vscode": "^1.1.5",
+        "mocha": "^3.5.0",
+        "@types/node": "^7.0.43",
+        "@types/mocha": "^2.2.42"
+    }
+}

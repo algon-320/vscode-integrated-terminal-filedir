@@ -1,0 +1,7 @@
+{
+    "description": "Add command to open an integrated terminal at the current file's directory.",
+    "command.toggle.title": "Toggle Integrated Terminal (at the current file's directory)",
+    "command.toggle.category": "View",
+    "command.new.title": "Create New Integrated Terminal (at the current file's directory)",
+    "command.new.category": "Terminal"
+}

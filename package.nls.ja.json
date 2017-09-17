@@ -1,0 +1,7 @@
+{
+    "description": "統合ターミナルを編集中のファイルのあるディレクトリで開くコマンドを追加します。",
+    "command.toggle.title": "統合ターミナルの切り替え (編集中のファイルのディレクトリで開く)",
+    "command.toggle.category": "表示",
+    "command.new.title": "新しい統合ターミナルの作成 (編集中のファイルのディレクトリで開く)",
+    "command.new.category": "ターミナル"
+}
