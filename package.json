@@ -18,6 +18,10 @@
         "directory"
     ],
     "icon": "images/icon.png",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/algon-320/vscode-integrated-terminal-filedir.git"
+    },
     "activationEvents": [
         "*"
     ],
